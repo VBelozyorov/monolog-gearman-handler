@@ -1,0 +1,12 @@
+### IDE ###
+/nbproject
+/.idea
+
+### Composer ###
+vendor/
+
+### Files ###
+.directory
+!.gitkeep
+*.orig
+

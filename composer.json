@@ -1,0 +1,22 @@
+{
+    "name": "vbelozyorov/monolog-gearman-handler",
+    "description": "Gearman Handler for Monolog logging library",
+    "keywords": ["log", "logging", "monolog", "gearman", "asynchronous"],
+    "type": "library",
+    "autoload" : {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^1",
+        "ext-gearman": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Vladimir Belozyorov",
+            "email": "vladimir.belozyorov@gmail.com"
+        }
+    ],
+   "license": "MIT"
+}
