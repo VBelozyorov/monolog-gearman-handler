@@ -43,7 +43,7 @@ monolog:
             channels: ['!gearman']
 ```
 
-In this example separate Monolog channell named `gearman` is registered. And handler `name` using in Symfony app by default
+In this example separate Monolog channell named `gearman` is registered. And handler `main` using in Symfony app by default
 excludes from this new channel. This way event logs like `kernel.debug` won't be published there.
 
 How you get Gearman logger with this config:
